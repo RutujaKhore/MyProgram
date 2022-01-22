@@ -1,0 +1,21 @@
+/////////////////////////////////////////////////////////
+//
+//Accept 2 numbers from user ans perform the addditon
+//
+///////////////////////////////////////////////////////
+
+#include "Header.h"
+
+//Entry point function
+int main()
+{
+	int iValue1 = 0,iValue2 = 0,iret = 0;
+	
+	printf("Enter first number\n");
+	scanf("%d",&iValue1);
+	
+	printf("Enter Second number\n");
+	scanf("%d",&iValue2);
+	
+	return 0;//Return sucess of OS
+}
